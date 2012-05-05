@@ -20,6 +20,12 @@ define('WP_SITEURL', 'http://' . $_SERVER['SERVER_NAME'] . '/wordpress');
 // serve the site out of the root domain
 define('WP_HOME', 'http://' . $_SERVER['SERVER_NAME']);
 
+// tell WP where the content pash is
+define('WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content');
+
+// tell WP where content URL is
+define('WP_CONTENT_URL', 'http://' . $_SERVER['SERVER_NAME'] . '/wp-content');
+
 // use a custom default theme
 define('WP_DEFAULT_THEME', 'wp-bootstrap');
 
