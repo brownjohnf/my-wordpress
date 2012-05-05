@@ -28,7 +28,7 @@ define('WP_DEFAULT_THEME', 'wp-bootstrap');
 define('DB_NAME', getenv("XEROUND_DATABASE_INTERNAL_NAME"));
 
 /** MySQL database username */
-define('DB_USER', getenv("XEROUND_DATABASE_INTERNAL_USER"));
+define('DB_USER', getenv("XEROUND_DATABASE_INTERNAL_USERNAME"));
 
 /** MySQL database password */
 define('DB_PASSWORD', getenv("XEROUND_DATABASE_INTERNAL_PASSWORD"));
